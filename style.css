@@ -1,0 +1,59 @@
+body {
+    background-image: url('stop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+  }
+  
+  
+  
+  .container {
+    text-align: center;
+  }
+  
+  .stopwatch {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+
+.heading {
+    font-size: 48px;
+    color: #141212;
+    margin-bottom: 30px;
+  }
+  
+  .display {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    margin-right: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .laps {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .laps li {
+    margin-bottom: 5px;
+  }
+  
